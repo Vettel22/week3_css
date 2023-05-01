@@ -1,0 +1,44 @@
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    width: 140px;
+    height: auto;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 16px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+#intro {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 60px;
+    padding: 100px 100px 100px 285px;
+    font: bold;
+    background-color:ghostwhite;
+    border: 6px solid black;
+}
+#title {
+    font-size: 32px;
+    font-style: italic;
+}
+#view {
+    font-size: 18px;
+    color: grey;
+}
+
+
